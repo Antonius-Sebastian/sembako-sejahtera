@@ -47,3 +47,15 @@ To start the application, run:
 ```bash
 npm start
 ```
+
+To Test the application, run:
+
+```bash
+npx jest
+```
+
+or:
+
+```bash
+npm test
+```
