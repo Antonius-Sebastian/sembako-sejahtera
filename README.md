@@ -38,7 +38,7 @@ Sembako Sejahtera is a simple command-line interface (CLI) application built wit
     PG_PASSWORD="yourpassword"
     PG_PORT="5432"
     ```
-4. **Set up the database**: Import the `sembako_sejahtera.sql` file to create tables and initial data and `sembako_sejahtera.sql` for testing.
+4. **Set up the database**: Import the `sembako_sejahtera.sql` file to create tables and initial data and `sembako_sejahtera_test.sql` for testing.
 
 ## Usage
 
