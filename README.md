@@ -1,5 +1,7 @@
 # Sembako Sejahtera
 
+Sembako Sejahtera is a simple command-line interface (CLI) application built with Node.js and PostgreSQL to manage inventory transactions, products, and finances for a basic inventory system.
+
 ## Table of Contents
 
 -   [Sembako Sejahtera](#sembako-sejahtera)
