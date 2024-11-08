@@ -1,7 +1,5 @@
 # Sembako Sejahtera
 
-Sembako Sejahtera is a simple command-line interface (CLI) application built with Node.js and PostgreSQL to manage inventory transactions, products, and finances for a basic inventory system.
-
 ## Table of Contents
 
 -   [Sembako Sejahtera](#sembako-sejahtera)
@@ -34,18 +32,16 @@ Sembako Sejahtera is a simple command-line interface (CLI) application built wit
     PG_USER="postgres"
     PG_HOST="localhost"
     PG_DATABASE="sembako_sejahtera"
+    PG_TEST_DATABASE="sembako_sejahtera_test"
     PG_PASSWORD="yourpassword"
     PG_PORT="5432"
     ```
-4. **Set up the database**: Execute the `query.sql` file to create tables and initial data:
-    ```bash
-    psql -U postgres -d sembako_sejahtera -f query.sql
-    ```
+4. **Set up the database**: Import the `sembako_sejahtera.sql` file to create tables and initial data and `sembako_sejahtera.sql` for testing.
 
 ## Usage
 
 To start the application, run:
 
 ```bash
-node index.js
+npm start
 ```
